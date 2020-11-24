@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper
+{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+}
+h2 {
+    margin-left: 10px;
+}
+.error p, .msg p{
+    margin-left: 10px;
+    background-color: #FF5733;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.success p{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #7ED47E;
+    font-weight: bold;
+}
+.success a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+.form-group {
+    margin: 10px;
+}
+label {
+    display: block;
+}
+.form-control {
+    padding: 10px;
+    width: 50%;
+}
+input[type=submit] {
+    padding: 10px;
+    width: 20%;
+}
+.back {
+    padding: 10px 38px;
+    background: #eeecec;
+    color: black;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 2.5px;
+}
+@media only screen and (max-width: 1440px) {
+    .form-group {
+        margin: 7px;
+    }
+}
